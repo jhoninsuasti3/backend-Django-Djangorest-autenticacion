@@ -154,3 +154,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 #Despliegue en heroku
+import django_heroku
+django_heroku.settings(locals())
